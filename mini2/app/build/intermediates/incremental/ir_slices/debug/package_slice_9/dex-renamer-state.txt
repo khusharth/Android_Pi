@@ -1,0 +1,4 @@
+#Tue Apr 23 17:14:23 IST 2019
+base.0=/home/khusharth/Downloads/mini2-20190423T084243Z-001/mini2/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex

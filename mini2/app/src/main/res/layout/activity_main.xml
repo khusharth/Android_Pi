@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/b2"
+    tools:context="com.example.mini2.MainActivity">
+
+    <EditText
+        android:id="@+id/ETemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/ETpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="@string/password"
+        android:inputType="numberPassword"
+        />
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/reg_btn"
+        android:text="@string/sign_up"/>
+    <TextView
+        android:id="@+id/TVSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/already_have_an_account_sign_in_here"
+        android:layout_margin="15dp"
+        android:textColor="@color/ww"
+        android:textSize="20sp"/>
+</LinearLayout>
